@@ -1,22 +1,23 @@
 "use client";
 
 import {
-  Button,
   Container,
   Heading,
   HStack,
   Text,
   VStack,
+  Button,
 } from "@chakra-ui/react";
 
 export default function Hero() {
   return (
-    <Container maxW="container.xl" py={10}>
-      <VStack align="flex-start" gap={6}>
-        <VStack align="flex-start" gap={2} maxW="container.md">
+    <Container maxW="container.xl">
+      <HStack align="center" gap={6} maxW="container.md">
+        {/* テキスト部分 */}
+        <VStack align="flex-start" gap={2}>
           <Heading as="h1" size="2xl" fontWeight="extrabold">
             こんにちは、
-            <Text as="span" color="teal.500">
+            <Text as="span" color="blue.500">
               Ryotaro Makita
             </Text>
             です
@@ -27,16 +28,16 @@ export default function Hero() {
           <Text fontSize="lg" color="gray.500">
             最新の技術を使用してレスポンシブな、Webアプリケーションを構築しています。
           </Text>
+          <HStack gap={4}>
+            <Button asChild colorScheme="blue">
+              <a href="#contact">お問い合わせ</a>
+            </Button>
+            <Button asChild colorScheme="blue" variant={"outline"}>
+              <a href="#projects">プロジェクトを見る</a>
+            </Button>
+          </HStack>
         </VStack>
-        <HStack gap={4}>
-          <Button asChild colorScheme="teal">
-            <a href="#contact">お問い合わせ</a>
-          </Button>
-          <Button asChild colorScheme="teal">
-            <a href="#projects">プロジェクトを見る</a>
-          </Button>
-        </HStack>
-      </VStack>
+      </HStack>
     </Container>
   );
 }

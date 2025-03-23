@@ -55,7 +55,7 @@ export default function ProjectCard({
         <Wrap gap={2} mb={4}>
           {skills.map((skill) => (
             <WrapItem key={skill}>
-              <Badge size="md" colorScheme="teal" variant="subtle">
+              <Badge size="md" colorScheme="blue" variant="subtle">
                 {skill}
               </Badge>
             </WrapItem>
@@ -66,7 +66,7 @@ export default function ProjectCard({
             <FaCode />
             コードを見る
           </Button>
-          <Button size="sm" colorScheme="teal">
+          <Button size="sm" colorScheme="blue">
             <FaExternalLinkAlt />
             ライブデモ
           </Button>

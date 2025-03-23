@@ -18,7 +18,7 @@ export default function Projects() {
       <Container maxW="container.xl">
         <VStack align="flex-start" gap={8}>
           <HStack gap={2}>
-            <Box as={FaBriefcase} color="teal.500" />
+            <Box as={FaBriefcase} color="blue.500" />
             <Heading as="h2" size="xl">
               プロジェクト
             </Heading>

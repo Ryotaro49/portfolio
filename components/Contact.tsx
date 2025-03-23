@@ -16,26 +16,26 @@ export default function Contact() {
     <Container maxW="container.xl">
       <VStack align="flex-start" gap={8}>
         <HStack gap={2}>
-          <Box as={FaEnvelope} color="teal.500" />
+          <Box as={FaEnvelope} color="blue.500" />
           <Heading as="h2" size="xl">
             お問い合わせ
           </Heading>
         </HStack>
         <Text fontSize="lg" color="gray.500">
-          開発者をお探しの方、質問がある方、または単につながりたい方は、お気軽にご連絡ください。
+          開発者をお探しの方、質問のある方、連絡をとりたい方、お気軽にご連絡ください。
         </Text>
         <HStack gap={4} flexWrap={{ base: "wrap", sm: "nowrap" }}>
-          <Button asChild colorScheme="teal">
+          <Button asChild colorScheme="blue">
             <a href="mailto:your.email@example.com">
               <FaEnvelope /> メールを送る
             </a>
           </Button>
-          <Button asChild colorScheme="teal">
+          <Button asChild colorScheme="blue">
             <a href="https://github.com/Ryotaro49">
               <FaGithub /> GitHub
             </a>
           </Button>
-          <Button asChild colorScheme="teal">
+          <Button asChild colorScheme="blue">
             <a href="https://linkedin.com/in/yourusername">
               <FaLinkedin /> LinkedIn
             </a>
