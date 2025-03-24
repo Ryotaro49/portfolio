@@ -32,18 +32,21 @@ export default function Projects() {
               description="Next.jsで構築され、ヘッドレスCMSと統合された機能満載のオンラインストア。"
               skills={["Next.js", "TypeScript", "Chakra UI"]}
               image="/placeholder.svg?height=200&width=300"
+              url=""
             />
             <ProjectCard
-              title="タスク管理アプリ"
-              description="ドラッグアンドドロップ機能とリアルタイム更新を備えた生産性アプリケーション。"
-              skills={["React", "Firebase", "Chakra UI"]}
+              title="英単語アプリ"
+              description="単語を簡単に登録しテストできる Web アプリ"
+              skills={["Next.js", "TypeScript", "Material UI"]}
               image="/placeholder.svg?height=200&width=300"
+              url="https://www.makitan.jp"
             />
             <ProjectCard
               title="ポートフォリオウェブサイト"
               description="私の作品とスキルを紹介するレスポンシブなポートフォリオウェブサイト（このウェブサイト）。"
               skills={["Next.js", "Chakra UI", "React Icons"]}
               image="/placeholder.svg?height=200&width=300"
+              url=""
             />
           </SimpleGrid>
         </VStack>

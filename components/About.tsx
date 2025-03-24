@@ -35,7 +35,8 @@ export default function About() {
             <VStack align="flex-start" gap={4}>
               <Text fontSize="lg" color="gray.500">
                 Webアプリケーション開発者です。
-                他にもホームページやECサイトなどの作成も可能です。
+                他にもホームページやECサイトなどの制作も可能です。
+                趣味程度ですが、CapCut を使ったショート動画の制作もできます。
               </Text>
               <Text fontSize="lg" color="gray.500">
                 仕事以外の時間はダーツをしたりギターをしています。😊
@@ -53,7 +54,7 @@ export default function About() {
               boxSize="250px"
             >
               <Image
-                src="/your-photo.jpg" // ← あなたの写真のパスに変更
+                src="/me.jpg"
                 alt="Ryotaro Makita"
                 objectFit="cover"
                 w="full"

@@ -19,11 +19,13 @@ export default function ProjectCard({
   description,
   skills,
   image,
+  url,
 }: {
   title: string;
   description: string;
   skills: string[];
   image: string;
+  url: string;
 }) {
   return (
     <Box
@@ -62,13 +64,11 @@ export default function ProjectCard({
           ))}
         </Wrap>
         <Flex justify="space-between">
-          <Button size="sm" variant="outline">
-            <FaCode />
-            コードを見る
-          </Button>
-          <Button size="sm" colorScheme="blue">
-            <FaExternalLinkAlt />
-            ライブデモ
+          <Button asChild size="sm" colorScheme="blue">
+            <a href={url}>
+              <FaExternalLinkAlt />
+              Web サイトを見る
+            </a>
           </Button>
         </Flex>
       </Box>

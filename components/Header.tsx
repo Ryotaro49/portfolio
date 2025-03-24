@@ -22,7 +22,7 @@ export default function Header() {
         <Flex justify="space-between" align="center">
           <NextLink href="/" passHref>
             <Link fontWeight="bold" fontSize="lg">
-              ポートフォリオ
+              Ryotaro Makita
             </Link>
           </NextLink>
           <HStack gap={6}>
