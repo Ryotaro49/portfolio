@@ -28,25 +28,25 @@ export default function Projects() {
           </Text>
           <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} gap={6} w="full">
             <ProjectCard
-              title="Eコマースウェブサイト"
-              description="Next.jsで構築され、ヘッドレスCMSと統合された機能満載のオンラインストア。"
-              skills={["Next.js", "TypeScript", "Chakra UI"]}
-              image="/placeholder.svg?height=200&width=300"
+              title="e ラーニングアプリ"
+              description="LINE連携可能なオンラインで学習できる Web アプリ。"
+              skills={["Next.js", "TypeScript", "Tailwind CSS", "LINE API"]}
+              image="/neko.jpg?height=200&width=300"
               url=""
             />
             <ProjectCard
               title="英単語アプリ"
-              description="単語を簡単に登録しテストできる Web アプリ"
-              skills={["Next.js", "TypeScript", "Material UI"]}
-              image="/placeholder.svg?height=200&width=300"
+              description="単語を簡単に登録しテストできる Web アプリ。"
+              skills={["Next.js", "TypeScript", "TiDB", "Material UI"]}
+              image="/neko.jpg?height=200&width=300"
               url="https://www.makitan.jp"
             />
             <ProjectCard
-              title="ポートフォリオウェブサイト"
-              description="私の作品とスキルを紹介するレスポンシブなポートフォリオウェブサイト（このウェブサイト）。"
-              skills={["Next.js", "Chakra UI", "React Icons"]}
-              image="/placeholder.svg?height=200&width=300"
-              url=""
+              title="ポートフォリオサイト"
+              description="スキルとプロジェクトを紹介するポートフォリオサイト。"
+              skills={["Next.js", "TypeScript", "Chakra UI"]}
+              image="/portfolio.png"
+              url="https://ryotaro-makita.vercel.app/"
             />
           </SimpleGrid>
         </VStack>

@@ -25,17 +25,17 @@ export default function Contact() {
           開発者をお探しの方、質問のある方、連絡をとりたい方、お気軽にご連絡ください。
         </Text>
         <HStack gap={4} flexWrap={{ base: "wrap", sm: "nowrap" }}>
-          <Button asChild colorScheme="blue">
+          <Button asChild bgColor={"blue.500"}>
             <a href="mailto:your.email@example.com">
               <FaEnvelope /> メールを送る
             </a>
           </Button>
-          <Button asChild colorScheme="blue">
+          <Button asChild bgColor={"blue.500"}>
             <a href="https://github.com/Ryotaro49">
               <FaGithub /> GitHub
             </a>
           </Button>
-          <Button asChild colorScheme="blue">
+          <Button asChild bgColor={"blue.500"}>
             <a href="https://linkedin.com/in/yourusername">
               <FaLinkedin /> LinkedIn
             </a>

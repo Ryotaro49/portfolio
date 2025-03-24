@@ -17,6 +17,7 @@ export default function Header() {
       borderColor={borderColor}
       bg={useColorModeValue("white", "gray.800")}
       backdropFilter="blur(10px)"
+      boxShadow="xs"
     >
       <Container maxW="container.xl" py={4}>
         <Flex justify="space-between" align="center">

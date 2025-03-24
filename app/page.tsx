@@ -30,7 +30,7 @@ export default function Portfolio() {
         viewport={{ once: true, amount: 0.3 }}
         variants={fadeInVariants}
       >
-        <Box id="hero" py="32">
+        <Box id="about" py="32">
           <Hero />
         </Box>
       </motion.div>
@@ -42,7 +42,7 @@ export default function Portfolio() {
         viewport={{ once: true, amount: 0.3 }}
         variants={fadeInVariants}
       >
-        <Box id="about" pb="32">
+        <Box pb="32">
           <About />
         </Box>
       </motion.div>

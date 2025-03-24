@@ -32,17 +32,11 @@ export default function Skills() {
           />
           <SkillCard
             title="バックエンド"
-            skills={["Node.js", "Express", "REST APIs", "GraphQL"]}
+            skills={["Node.js", "REST APIs", "Python", "TiDB", "AWS"]}
           />
           <SkillCard
             title="ツールなど"
-            skills={[
-              "Git",
-              "GitHub",
-              "VS Code",
-              "Figma",
-              "レスポンシブデザイン",
-            ]}
+            skills={["GitHub", "VS Code", "Visual Studio", "Docker"]}
           />
         </SimpleGrid>
       </VStack>

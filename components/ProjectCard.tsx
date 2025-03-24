@@ -11,7 +11,6 @@ import {
   Wrap,
   WrapItem,
 } from "@chakra-ui/react";
-import { FaCode, FaExternalLinkAlt } from "react-icons/fa";
 import { useColorModeValue } from "../components/ui/color-mode";
 
 export default function ProjectCard({
@@ -36,16 +35,18 @@ export default function ProjectCard({
       shadow="md"
     >
       <Box position="relative" overflow="hidden">
-        <Image
-          src={image || "/placeholder.svg"}
-          alt={title}
-          w="full"
-          h="auto"
-          aspectRatio={16 / 9}
-          objectFit="cover"
-          transition="transform 0.3s ease"
-          _hover={{ transform: "scale(1.05)" }}
-        />
+        <a href={url}>
+          <Image
+            src={image || "/placeholder.svg"}
+            alt={title}
+            w="full"
+            h="auto"
+            aspectRatio={16 / 9}
+            objectFit="cover"
+            transition="transform 0.3s ease"
+            _hover={{ transform: "scale(1.05)" }}
+          />
+        </a>
       </Box>
       <Box p={5}>
         <Heading size="md" mb={2}>
@@ -57,20 +58,12 @@ export default function ProjectCard({
         <Wrap gap={2} mb={4}>
           {skills.map((skill) => (
             <WrapItem key={skill}>
-              <Badge size="md" colorScheme="blue" variant="subtle">
+              <Badge size="md" variant="subtle">
                 {skill}
               </Badge>
             </WrapItem>
           ))}
         </Wrap>
-        <Flex justify="space-between">
-          <Button asChild size="sm" colorScheme="blue">
-            <a href={url}>
-              <FaExternalLinkAlt />
-              Web サイトを見る
-            </a>
-          </Button>
-        </Flex>
       </Box>
     </Box>
   );

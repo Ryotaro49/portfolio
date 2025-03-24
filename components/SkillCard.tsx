@@ -25,7 +25,7 @@ export default function SkillCard({
         <Wrap gap={2}>
           {skills.map((skill) => (
             <WrapItem key={skill}>
-              <Badge size="md" colorScheme="blue" variant="subtle">
+              <Badge size="md" variant="subtle">
                 {skill}
               </Badge>
             </WrapItem>
