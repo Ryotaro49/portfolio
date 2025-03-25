@@ -9,7 +9,13 @@ import {
   Text,
   VStack,
 } from "@chakra-ui/react";
-import { FaEnvelope, FaGithub, FaLinkedin } from "react-icons/fa";
+import {
+  FaEnvelope,
+  FaGithub,
+  FaLinkedin,
+  FaLine,
+  FaInstagram,
+} from "react-icons/fa";
 
 export default function Contact() {
   return (
@@ -22,7 +28,7 @@ export default function Contact() {
           </Heading>
         </HStack>
         <Text fontSize="lg" color="gray.500">
-          開発者をお探しの方、質問のある方、連絡をとりたい方、お気軽にご連絡ください。
+          開発者をお探しの方、質問のある方、ただ挨拶するのみでも、お気軽にご連絡ください。
         </Text>
         <HStack gap={4} flexWrap={{ base: "wrap", sm: "nowrap" }}>
           <Button asChild bgColor={"blue.500"}>
@@ -38,6 +44,16 @@ export default function Contact() {
           <Button asChild bgColor={"blue.500"}>
             <a href="www.linkedin.com/in/凌太郎-巻田-80a781325">
               <FaLinkedin /> LinkedIn
+            </a>
+          </Button>
+          <Button asChild bgColor={"blue.500"}>
+            <a href="https://line.me/ti/p/PYl4erX5EG">
+              <FaLine /> LINE
+            </a>
+          </Button>
+          <Button asChild bgColor={"blue.500"}>
+            <a href="https://www.instagram.com/ryotaro_49?igsh=MWZubDU5eWpwYTZkbw%3D%3D&utm_source=qr">
+              <FaInstagram /> Instagram
             </a>
           </Button>
         </HStack>
