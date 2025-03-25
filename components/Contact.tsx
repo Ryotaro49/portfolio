@@ -26,7 +26,7 @@ export default function Contact() {
         </Text>
         <HStack gap={4} flexWrap={{ base: "wrap", sm: "nowrap" }}>
           <Button asChild bgColor={"blue.500"}>
-            <a href="mailto:your.email@example.com">
+            <a href="mailto:m.ryotaro049@gmail.com">
               <FaEnvelope /> メールを送る
             </a>
           </Button>
@@ -36,7 +36,7 @@ export default function Contact() {
             </a>
           </Button>
           <Button asChild bgColor={"blue.500"}>
-            <a href="https://linkedin.com/in/yourusername">
+            <a href="www.linkedin.com/in/凌太郎-巻田-80a781325">
               <FaLinkedin /> LinkedIn
             </a>
           </Button>
