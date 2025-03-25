@@ -42,7 +42,7 @@ export default function Contact() {
             </a>
           </Button>
           <Button asChild bgColor={"blue.500"}>
-            <a href="www.linkedin.com/in/凌太郎-巻田-80a781325">
+            <a href="https://www.linkedin.com/in/凌太郎-巻田-80a781325">
               <FaLinkedin /> LinkedIn
             </a>
           </Button>
