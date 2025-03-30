@@ -10,6 +10,13 @@ import {
 } from "@chakra-ui/react";
 
 export default function Hero() {
+  const handleScroll = (id: string) => {
+    const el = document.getElementById(id);
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <Container maxW="container.xl">
       <HStack align="center" gap={6} maxW="container.md">
@@ -30,11 +37,19 @@ export default function Hero() {
             アプリケーションを構築しています。
           </Text>
           <HStack gap={4}>
-            <Button asChild bgColor={"blue.500"}>
-              <a href="#contact">お問い合わせ</a>
+            <Button
+              bgColor={"blue.500"}
+              color="white"
+              onClick={() => handleScroll("contact")}
+            >
+              お問い合わせ
             </Button>
-            <Button asChild color={"blue.500"} variant={"outline"}>
-              <a href="#projects">プロジェクトを見る</a>
+            <Button
+              color={"blue.500"}
+              variant={"outline"}
+              onClick={() => handleScroll("projects")}
+            >
+              プロジェクトを見る
             </Button>
           </HStack>
         </VStack>
