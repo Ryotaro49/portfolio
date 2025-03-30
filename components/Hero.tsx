@@ -24,7 +24,7 @@ export default function Hero() {
         <VStack align="flex-start" gap={2}>
           <Heading as="h1" size="2xl" fontWeight="extrabold">
             初めまして!
-            <Text as="span" color="blue.500" px={2}>
+            <Text as="span" color="brand.600" px={2}>
               Ryotaro Makita
             </Text>
             です
@@ -32,21 +32,21 @@ export default function Hero() {
           <Heading as="h2" size="lg">
             Web アプリケーション開発者
           </Heading>
-          <Text fontSize="lg" color="gray.500">
+          <Text fontSize="lg" color="brand.800">
             レスポンシブな Web
             アプリケーションを構築したり、ホームページの制作などを行っています。
           </Text>
           <HStack gap={4}>
             <Button
-              bgColor={"blue.500"}
+              bgColor={"brand.500"}
               color="white"
               onClick={() => handleScroll("contact")}
             >
               お問い合わせ
             </Button>
             <Button
-              color={"blue.500"}
-              variant={"outline"}
+              bgColor={"brand.500"}
+              color="white"
               onClick={() => handleScroll("projects")}
             >
               プロジェクトを見る

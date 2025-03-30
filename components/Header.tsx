@@ -21,7 +21,7 @@ export default function Header() {
       zIndex={40}
       borderBottom="1px"
       borderColor={borderColor}
-      bg={useColorModeValue("white", "gray.800")}
+      bg={useColorModeValue("white", "brand.800")}
       backdropFilter="blur(10px)"
       boxShadow="xs"
     >

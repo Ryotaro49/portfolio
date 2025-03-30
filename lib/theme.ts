@@ -5,16 +5,17 @@ export const system = createSystem(defaultConfig, {
     tokens: {
       colors: {
         brand: {
-          50: { value: "#E6FFFA" },
-          100: { value: "#B2F5EA" },
-          200: { value: "#81E6D9" },
-          300: { value: "#4FD1C5" },
-          400: { value: "#38B2AC" },
-          500: { value: "#319795" },
-          600: { value: "#2C7A7B" },
-          700: { value: "#285E61" },
-          800: { value: "#234E52" },
-          900: { value: "#1D4044" },
+          50: { value: "#f2f6f8" },
+          100: { value: "#dde6ed" },
+          200: { value: "#b4c9d8" },
+          300: { value: "#8dacc4" },
+          400: { value: "#648ead" },
+          500: { value: "#2c3e50" }, // メイン：ネイビーブルー
+          600: { value: "#233240" },
+          700: { value: "#1a2630" },
+          800: { value: "#111a20" },
+          900: { value: "#080d10" },
+          gold: { value: "#cfa96e" }, // アクセント用ゴールド
         },
       },
       fonts: {

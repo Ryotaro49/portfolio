@@ -31,7 +31,7 @@ export default function ProjectCard({
       borderWidth="1px"
       borderRadius="lg"
       overflow="hidden"
-      bg={useColorModeValue("white", "gray.800")}
+      bg={useColorModeValue("white", "brand.800")}
       shadow="md"
     >
       <Box position="relative" overflow="hidden">
@@ -52,7 +52,7 @@ export default function ProjectCard({
         <Heading size="md" mb={2}>
           {title}
         </Heading>
-        <Text color="gray.500" mb={4}>
+        <Text color="brand.800" mb={4}>
           {description}
         </Text>
         <Wrap gap={2} mb={4}>

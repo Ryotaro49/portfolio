@@ -12,15 +12,40 @@ import Footer from "@/components/Footer";
 import About from "@/components/About";
 
 const fadeInVariants = {
-  hidden: { opacity: 0, y: 30 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
+  hidden: { opacity: 0, y: 40, scale: 0.98 },
+  visible: {
+    opacity: 1,
+    y: 0,
+    scale: 1,
+    transition: { duration: 0.8, ease: "easeOut" },
+  },
 };
 
 export default function Portfolio() {
-  const bgColor = useColorModeValue("gray.50", "gray.900");
+  const bgColor = useColorModeValue(
+    "rgba(245, 243, 239, 0.7)",
+    "rgba(26, 29, 41, 0.7)"
+  );
 
   return (
-    <Box minH="100vh">
+    <Box
+      minH="100vh"
+      position="relative"
+      overflow="hidden"
+      _before={{
+        content: `""`,
+        position: "fixed",
+        top: 0,
+        left: 0,
+        w: "100vw",
+        h: "100vh",
+        bgImage: "url('/bg.jpg')",
+        bgSize: "cover",
+        backgroundPosition: "center",
+        opacity: 0.3,
+        zIndex: -1,
+      }}
+    >
       <Header />
 
       {/* Heroセクション */}
@@ -54,7 +79,9 @@ export default function Portfolio() {
         viewport={{ once: true, amount: 0.3 }}
         variants={fadeInVariants}
       >
-        <Projects />
+        <Box id="skills" py="32" bg={bgColor}>
+          <Projects />
+        </Box>
       </motion.div>
 
       {/* Skillsセクション */}
@@ -64,7 +91,7 @@ export default function Portfolio() {
         viewport={{ once: true, amount: 0.3 }}
         variants={fadeInVariants}
       >
-        <Box id="skills" py="32" bg={bgColor}>
+        <Box id="skills" py="32">
           <Skills />
         </Box>
       </motion.div>

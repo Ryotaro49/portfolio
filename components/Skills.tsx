@@ -17,12 +17,12 @@ export default function Skills() {
     <Container maxW="container.xl">
       <VStack align="flex-start" gap={8}>
         <HStack gap={2}>
-          <Box as={FaMicrochip} color="blue.500" />
+          <Box as={FaMicrochip} color="brand.500" />
           <Heading as="h2" size="xl">
             スキル
           </Heading>
         </HStack>
-        <Text fontSize="lg" color="gray.500">
+        <Text fontSize="lg" color="brand.800">
           プロジェクトに使用している技術とツールの一部です
         </Text>
         <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} gap={6} w="full">

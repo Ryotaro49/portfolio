@@ -15,7 +15,7 @@ export default function SkillCard({
       borderWidth="1px"
       borderRadius="lg"
       overflow="hidden"
-      bg={useColorModeValue("white", "gray.800")}
+      bg={useColorModeValue("white", "brand.800")}
       shadow="md"
     >
       <Box p={5}>

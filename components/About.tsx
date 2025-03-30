@@ -27,18 +27,18 @@ export default function About() {
           {/* テキストエリア */}
           <GridItem>
             <HStack gap={2} mb={4}>
-              <Box as={FaUser} color="blue.500" boxSize={6} />
+              <Box as={FaUser} color="brand.500" boxSize={6} />
               <Heading as="h2" size="xl">
                 自己紹介
               </Heading>
             </HStack>
             <VStack align="flex-start" gap={4}>
-              <Text fontSize="lg" color="gray.500">
+              <Text fontSize="lg" color="brand.800">
                 Web アプリケーション開発者です。
                 他にもホームページやECサイトなどの制作も可能です。
                 趣味程度ですが、CapCut を使ったショート動画の制作もできます。
               </Text>
-              <Text fontSize="lg" color="gray.500">
+              <Text fontSize="lg" color="brand.800">
                 仕事以外の時間はダーツをしたりギターをしています。😊
               </Text>
             </VStack>

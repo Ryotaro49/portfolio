@@ -18,12 +18,12 @@ export default function Projects() {
       <Container maxW="container.xl">
         <VStack align="flex-start" gap={8}>
           <HStack gap={2}>
-            <Box as={FaBriefcase} color="blue.500" />
+            <Box as={FaBriefcase} color="brand.500" />
             <Heading as="h2" size="xl">
               プロジェクト
             </Heading>
           </HStack>
-          <Text fontSize="lg" color="gray.500">
+          <Text fontSize="lg" color="brand.800">
             プロジェクトをご覧ください
           </Text>
           <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} gap={6} w="full">

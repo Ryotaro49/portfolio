@@ -15,7 +15,7 @@ export default function Footer() {
         >
           <Text
             fontSize="sm"
-            color="gray.500"
+            color="brand.800"
             textAlign={{ base: "center", md: "left" }}
           >
             © {new Date().getFullYear()} Ryotaro Makita. All rights reserved.
