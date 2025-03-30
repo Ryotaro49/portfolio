@@ -19,11 +19,11 @@ export default function Skills() {
         <HStack gap={2}>
           <Box as={FaMicrochip} color="blue.500" />
           <Heading as="h2" size="xl">
-            スキルと技術
+            スキル
           </Heading>
         </HStack>
         <Text fontSize="lg" color="gray.500">
-          私が使用する技術とツールの一部です：
+          プロジェクトに使用している技術とツールの一部です
         </Text>
         <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} gap={6} w="full">
           <SkillCard

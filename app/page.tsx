@@ -47,6 +47,16 @@ export default function Portfolio() {
         </Box>
       </motion.div>
 
+      {/* Projectsセクション */}
+      <motion.div
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: true, amount: 0.3 }}
+        variants={fadeInVariants}
+      >
+        <Projects />
+      </motion.div>
+
       {/* Skillsセクション */}
       <motion.div
         initial="hidden"
@@ -57,16 +67,6 @@ export default function Portfolio() {
         <Box id="skills" py="32" bg={bgColor}>
           <Skills />
         </Box>
-      </motion.div>
-
-      {/* Projectsセクション */}
-      <motion.div
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.3 }}
-        variants={fadeInVariants}
-      >
-        <Projects />
       </motion.div>
 
       {/* Contactセクション */}

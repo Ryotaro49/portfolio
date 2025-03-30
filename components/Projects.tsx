@@ -24,21 +24,21 @@ export default function Projects() {
             </Heading>
           </HStack>
           <Text fontSize="lg" color="gray.500">
-            最近のプロジェクトをご覧ください：
+            プロジェクトをご覧ください
           </Text>
           <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} gap={6} w="full">
             <ProjectCard
               title="e ラーニングアプリ"
               description="LINE連携可能なオンラインで学習できる Web アプリ。"
               skills={["Next.js", "TypeScript", "Tailwind CSS", "LINE API"]}
-              image="/neko.jpg?height=200&width=300"
+              image="/neko.jpg"
               url=""
             />
             <ProjectCard
               title="英単語アプリ"
               description="単語を簡単に登録しテストできる Web アプリ。"
               skills={["Next.js", "TypeScript", "TiDB", "Material UI"]}
-              image="/neko.jpg?height=200&width=300"
+              image="/makitan.png"
               url="https://www.makitan.jp"
             />
             <ProjectCard

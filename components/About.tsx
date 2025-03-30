@@ -34,7 +34,7 @@ export default function About() {
             </HStack>
             <VStack align="flex-start" gap={4}>
               <Text fontSize="lg" color="gray.500">
-                Webアプリケーション開発者です。
+                Web アプリケーション開発者です。
                 他にもホームページやECサイトなどの制作も可能です。
                 趣味程度ですが、CapCut を使ったショート動画の制作もできます。
               </Text>

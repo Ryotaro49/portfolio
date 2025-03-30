@@ -33,8 +33,8 @@ export default function Hero() {
             Web アプリケーション開発者
           </Heading>
           <Text fontSize="lg" color="gray.500">
-            最新の技術を使用してレスポンシブな、Web
-            アプリケーションを構築しています。
+            レスポンシブな Web
+            アプリケーションを構築したり、ホームページの制作などを行っています。
           </Text>
           <HStack gap={4}>
             <Button

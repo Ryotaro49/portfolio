@@ -22,20 +22,20 @@ export default function Footer() {
           </Text>
           <HStack gap={4}>
             <Link
-              href="https://github.com/yourusername"
+              href="https://github.com/Ryotaro49"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaGithub />
             </Link>
             <Link
-              href="https://linkedin.com/in/yourusername"
+              href="https://linkedin.com/in/凌太郎-巻田-80a781325"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaLinkedin />
             </Link>
-            <Link href="mailto:your.email@example.com">
+            <Link href="mailto:m.ryotaro049@gmail.com">
               <FaEnvelope />
             </Link>
           </HStack>
