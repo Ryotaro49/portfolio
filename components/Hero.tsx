@@ -8,6 +8,7 @@ import {
   VStack,
   Button,
 } from "@chakra-ui/react";
+import AnimatedButton from "./ui/animated-button";
 
 export default function Hero() {
   const handleScroll = (id: string) => {
@@ -37,20 +38,16 @@ export default function Hero() {
             アプリケーションを構築したり、ホームページの制作などを行っています。
           </Text>
           <HStack gap={4}>
-            <Button
-              bgColor={"brand.500"}
-              color="white"
-              onClick={() => handleScroll("contact")}
-            >
+            <AnimatedButton onClick={() => handleScroll("contact")}>
               お問い合わせ
-            </Button>
-            <Button
+            </AnimatedButton>
+            <AnimatedButton
               bgColor={"brand.500"}
               color="white"
               onClick={() => handleScroll("projects")}
             >
               プロジェクトを見る
-            </Button>
+            </AnimatedButton>
           </HStack>
         </VStack>
       </HStack>

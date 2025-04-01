@@ -1,6 +1,6 @@
 "use client";
 
-import { Box, Container, Flex, HStack, Link } from "@chakra-ui/react";
+import { Box, Container, Flex, HStack, Link, Image } from "@chakra-ui/react";
 import { useColorModeValue } from "../components/ui/color-mode";
 
 export default function Header() {
@@ -16,7 +16,7 @@ export default function Header() {
   return (
     <Box
       as="header"
-      position="sticky"
+      position="fixed"
       top={0}
       zIndex={40}
       borderBottom="1px"
@@ -24,6 +24,7 @@ export default function Header() {
       bg={useColorModeValue("white", "brand.800")}
       backdropFilter="blur(10px)"
       boxShadow="xs"
+      w={"100%"}
     >
       <Container maxW="container.xl" py={4}>
         <Flex justify="space-between" align="center">
