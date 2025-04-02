@@ -16,15 +16,16 @@ export default function Projects() {
   return (
     <Box id="projects" py={20}>
       <Container maxW="container.xl">
-        <VStack align="flex-start" gap={8}>
+        {/* サイト開発実績セクション */}
+        <VStack align="flex-start" gap={8} mb={16}>
           <HStack gap={2}>
             <Box as={FaBriefcase} color="brand.500" />
             <Heading as="h2" size="xl">
-              プロジェクト
+              開発実績
             </Heading>
           </HStack>
           <Text fontSize="lg" color="brand.800">
-            プロジェクトをご覧ください
+            Webサイトやアプリの開発実績をご紹介します。
           </Text>
           <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} gap={6} w="full">
             <ProjectCard
@@ -47,6 +48,28 @@ export default function Projects() {
               skills={["Next.js", "TypeScript", "Chakra UI"]}
               image="/portfolio.png"
               url="https://ryotaro-makita.vercel.app/"
+            />
+          </SimpleGrid>
+        </VStack>
+
+        {/* その他のサービスセクション */}
+        <VStack align="flex-start" gap={8}>
+          <HStack gap={2}>
+            <Box as={FaBriefcase} color="brand.500" />
+            <Heading as="h2" size="xl">
+              その他のサービス
+            </Heading>
+          </HStack>
+          <Text fontSize="lg" color="brand.800">
+            Web開発以外にも、AIや動画編集などのノウハウを活かして活動しています。
+          </Text>
+          <SimpleGrid columns={{ base: 1, md: 2, lg: 3 }} gap={6} w="full">
+            <ProjectCard
+              title="ココナラでの講座販売"
+              description="AIを使った副業の方法などを教えています。"
+              skills={["CapCut", "ChatGPT", "各種AIツール", "Canva"]}
+              image="/coconara.png"
+              url="https://coconala.com/users/5220259"
             />
           </SimpleGrid>
         </VStack>
