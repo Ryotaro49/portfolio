@@ -60,7 +60,7 @@ export default function Portfolio() {
           justify="center"
           align="center"
           h="100vh"
-          bg="transparent"
+          bg="white"
         >
           {/* ロゴ */}
           <motion.img
