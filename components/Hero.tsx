@@ -1,13 +1,6 @@
 "use client";
 
-import {
-  Container,
-  Heading,
-  HStack,
-  Text,
-  VStack,
-  Button,
-} from "@chakra-ui/react";
+import { Container, Heading, HStack, Text, VStack } from "@chakra-ui/react";
 import AnimatedButton from "./ui/animated-button";
 
 export default function Hero() {

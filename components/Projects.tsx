@@ -14,7 +14,7 @@ import ProjectCard from "./ProjectCard";
 
 export default function Projects() {
   return (
-    <Box id="projects" py={20}>
+    <Box py={20}>
       <Container maxW="container.xl">
         {/* サイト開発実績セクション */}
         <VStack align="flex-start" gap={8} mb={16}>

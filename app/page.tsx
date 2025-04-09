@@ -120,7 +120,7 @@ export default function Portfolio() {
             viewport={{ once: true, amount: 0.3 }}
             variants={fadeInVariants}
           >
-            <Box id="skills" py="32" bg={bgColor}>
+            <Box id="projects" py="32" bg={bgColor}>
               <Projects />
             </Box>
           </motion.div>

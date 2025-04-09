@@ -35,11 +35,11 @@ export default function Header() {
             <Link fontSize="sm" onClick={() => handleScroll("about")}>
               自己紹介
             </Link>
-            <Link fontSize="sm" onClick={() => handleScroll("skills")}>
-              スキル
-            </Link>
             <Link fontSize="sm" onClick={() => handleScroll("projects")}>
               プロジェクト
+            </Link>
+            <Link fontSize="sm" onClick={() => handleScroll("skills")}>
+              スキル
             </Link>
             <Link fontSize="sm" onClick={() => handleScroll("contact")}>
               お問い合わせ
