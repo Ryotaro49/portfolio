@@ -53,7 +53,7 @@ export default function Projects() {
         </VStack>
 
         {/* その他のサービスセクション */}
-        <VStack align="flex-start" gap={8}>
+        {/* <VStack align="flex-start" gap={8}>
           <HStack gap={2}>
             <Box as={FaBriefcase} color="brand.500" />
             <Heading as="h2" size="xl">
@@ -72,7 +72,7 @@ export default function Projects() {
               url="https://coconala.com/users/5220259"
             />
           </SimpleGrid>
-        </VStack>
+        </VStack> */}
       </Container>
     </Box>
   );
